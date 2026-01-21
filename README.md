@@ -44,11 +44,11 @@ Internal pull-ups are used (INPUT_PULLUP).
 |------|------|--------|
 | 1 | GPIO 4 | Ctrl + C |
 | 2 | GPIO 5 | Ctrl + V |
-| 3 | GPIO 12 | Ctrl + X |
-| 4 | GPIO 13 | Ctrl + A |
-| 5 | GPIO 14 | Ctrl + Z |
-| 6 | GPIO 15 | Ctrl + Y |
-| 7 | GPIO 16 | Alt + Tab |
+| 3 | GPIO 12 | Ctrl + A |
+| 4 | GPIO 13 | KEEP ALIVE -> www.google.com (win only) |
+| 5 | GPIO 14 | Alt + Tab |
+| 6 | GPIO 15 | Ctrl + X |
+| 7 | GPIO 16 | Ctrl + Alt + Del (delay) enter |
 | 8 | GPIO 17 | Ctrl + S |
 | 9 | GPIO 18 | Ctrl + P |
 
@@ -160,6 +160,7 @@ Button 1 pressed: Ctrl+C
 - ESP32-S3 supports 2.4 GHz Wi-Fi only
 - Many USB-C cables are power-only — use data-capable cables
 - HID typing controls your computer — use with caution
+- This is built as a demonstration use at your own risk. I take no responsiblity for actions with this device.
 
 ---
 
@@ -168,7 +169,6 @@ Button 1 pressed: Ctrl+C
 - Web-configurable macros
 - Key remapping
 - OLED display support
-- 3D-printable enclosure
 
 ---
 
