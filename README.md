@@ -7,6 +7,7 @@ This project turns an ESP32-S3 into a USB HID keyboard with a built-in web inter
 ## Features
 
 - USB HID Keyboard (TinyUSB)
+- No drivers needed on destination machine so works on any OS
 - Web interface hosted on the ESP32
 - Press Enter to send text (Shift+Enter inserts newline)
 - Human-like typing (random delays, pauses, backspaces)
