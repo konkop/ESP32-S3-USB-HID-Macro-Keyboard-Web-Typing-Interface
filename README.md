@@ -23,10 +23,11 @@ This project turns an ESP32-S3 into a USB HID keyboard with a built-in web inter
 ### Main Board
 - ESP32-S3 development board with native USB
 - Tested with: ESP32-S3 DevKit (N16R8)
-  - https://www.amazon.com/dp/B0CKXJLP4B?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
+  - https://www.amazon.com/dp/B0CKXJLP4B
 
 ### Buttons
 - 9x Cherry MX switches
+  - https://www.amazon.com/dp/B0DSHTPSL3
 - Optional hot-swap sockets
 - Optional keycaps
 
