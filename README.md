@@ -2,6 +2,7 @@
 
 This project turns an ESP32-S3 into a USB HID keyboard with a built-in web interface that can type text into another computer in a human-like way and trigger macro commands using physical Cherry MX keys.
 ![Demo](images/demo.gif)
+![Demo2](images/demo_web.gif)
 ---
 
 ## Features
