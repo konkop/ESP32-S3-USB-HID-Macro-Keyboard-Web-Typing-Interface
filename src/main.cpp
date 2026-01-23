@@ -8,7 +8,7 @@
 #include <ESPmDNS.h>
 
 const int NUM_BUTTONS = 9;
-const int debounceDelay = 500; // milliseconds
+const int debounceDelay = 200; // milliseconds
 
 int buttonPins[NUM_BUTTONS] = {4,5,12,13,14,15,16,17,18};
 bool lastButtonState[NUM_BUTTONS];
