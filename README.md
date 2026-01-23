@@ -13,6 +13,7 @@ This project turns an ESP32-S3 into a USB HID keyboard with a built-in web inter
 - Press Enter to send text (Shift+Enter inserts newline)
 - Human-like typing (random delays, pauses, backspaces)
 - 9 physical Cherry MX macro keys
+- Can skip physical keys for just remote typing
 - Debounced button handling
 - Serial debug output
 - mDNS support (.local address)
