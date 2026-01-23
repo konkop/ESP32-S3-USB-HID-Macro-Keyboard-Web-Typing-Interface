@@ -30,7 +30,6 @@ This project turns an ESP32-S3 into a USB HID keyboard with a built-in web inter
 ### Buttons
 - 9x Cherry MX switches
   - https://www.amazon.com/dp/B0DSHTPSL3
-- Optional hot-swap sockets
 - Optional keycaps
 
 ### Wiring
@@ -71,31 +70,6 @@ GPIO ----[ Cherry MX Switch ]---- GND
 ### Install Tools
 - Visual Studio Code
 - PlatformIO extension
-
-### Clone Repository
-
-git clone https://github.com/YOUR_USERNAME/esp32-s3-hid-typing-keyboard.git
-cd esp32-s3-hid-typing-keyboard
-
-### platformio.ini
-[env:freenove_esp32_s3_wroom]
-platform = espressif32@^6.5.0
-board = esp32-s3-devkitc-1
-framework = arduino
-
-build_flags =
-  -D ARDUINO_USB_MODE=1
-  -D ARDUINO_USB_CDC_ON_BOOT=0
-  -D CONFIG_TINYUSB_DESC_MANUFACTURER_STRING="Bryon Industries"
-  -D CONFIG_TINYUSB_DESC_PRODUCT_STRING="Human Typing Keyboard"
-  -D CONFIG_TINYUSB_DESC_SERIAL_STRING="ESP32S3-001"
-
-upload_protocol = esptool
-monitor_speed = 115200
-
-upload_port = COM5
-monitor_port = COM5
-
 ---
 
 ## Wi-Fi Configuration
@@ -138,9 +112,8 @@ Open the following in your browser:
 
 http://human-typing-keyboard.local
 
-- Press Enter to send text
+- Press Enter to send text and clears the textbox
 - Shift + Enter inserts a newline
-- Page does not reload after sending
 
 ---
 
@@ -149,10 +122,6 @@ http://human-typing-keyboard.local
 - Each key triggers once per press
 - Fully debounced in software
 - Serial output confirms key presses
-
-Example:
-
-Button 1 pressed: Ctrl+C
 
 ---
 
